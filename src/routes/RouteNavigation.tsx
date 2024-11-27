@@ -10,4 +10,11 @@ export const RouteNavigation: IAppRouteInterface[] = [
     isHeader: true,
     name: "Home",
   },
+  {
+    path: "/myportfolio/",
+    element: <MainLayout />,
+    errorElement: null,
+    isHeader: true,
+    name: "Home",
+  },
 ];
